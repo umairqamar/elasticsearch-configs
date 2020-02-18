@@ -1,0 +1,55 @@
+##Configuring Kibana
+##Reference https://www.elastic.co/guide/en/kibana/7.5/settings.html
+
+#Enable Security
+xpack.security.enabled: true
+
+#Enable Machine Learning
+xpack.ml.enabled: true
+
+#Enable Canvas
+xpack.canvas.enabled: true
+
+#Enable SIEM
+xpack.siem.enabled: true
+
+#Enable Spaces
+xpack.spaces.enabled: true
+
+#Enable Maps
+map.includeElasticMapsService: true
+xpack.maps.enabled: true
+
+#Enable Grok Debugger
+xpack.grokdebugger.enabled: true
+
+#Enable Searchprofiler
+xpack.searchprofiler.enabled: true
+
+#Enable Graphs
+xpack.graph.enabled: true
+
+#Enable Reporting
+xpack.reporting.enabled: true
+
+#Enable Infrastructure Logs
+xpack.infra.enabled: false
+
+#Enable Monitoring
+xpack.monitoring.enabled: false
+xpack.monitoring.ui.enabled: false 
+
+#Enable APM
+xpack.apm.enabled: false
+xpack.apm.ui.enabled: false
+
+#Enable License Management
+xpack.license_management.enabled: false
+
+#Enable NewsFeed on topbar
+newsfeed.enabled: false
+
+#Set Telemetry
+telemetry.optIn: false
+telemetry.enabled: false
+
